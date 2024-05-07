@@ -155,7 +155,7 @@ export default function App() {
     <div className="App">
       <Particles options={particleConfig} init={particleInit} />
       <div className="button-container">
-      <button className="fire-button" onClick={handleFirework}>
+      <button className="fire-button" onClick={handleFireworkLaunch}>
         Fire
       </button>
         <p className="firework-counter">Fireworks launched: {fireworkCount}</p>
