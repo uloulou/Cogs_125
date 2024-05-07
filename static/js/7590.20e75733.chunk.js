@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfireworks=self.webpackChunkfireworks||[]).push([[7590],{7590:(a,e,r)=>{async function l(a){let e=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await a.addMover("parallax",(async()=>{const{ParallaxMover:a}=await Promise.all([r.e(4409),r.e(9558)]).then(r.bind(r,9558));return new a}),e)}r.d(e,{loadParallaxMover:()=>l})}}]);
+//# sourceMappingURL=7590.20e75733.chunk.js.map
