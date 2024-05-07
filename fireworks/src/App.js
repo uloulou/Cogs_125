@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-//import Particles from "react-particles";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import "./App.css";
@@ -22,7 +21,6 @@ export default function App() {
     },
     fpsLimit: 60,
     emitters: {
-      // direction: ["left", 'right'],
       life: {
         count: 0,
         duration: 0.1,
