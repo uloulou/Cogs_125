@@ -7,11 +7,10 @@ export default function App() {
   const [fireworkCount, setFireworkCount] = useState(0);
   const [showFirework, setShowFirework] = useState(false);
 
-  const particleInit = async (engine) => {
-    await loadFull(engine);
+  const particleInit = (engine) => {
     engine.start();
   };
-  
+
   const particleConfig = {
     fullScreen: {
       enable: true
