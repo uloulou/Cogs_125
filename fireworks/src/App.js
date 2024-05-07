@@ -176,7 +176,7 @@
 
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
-import "./styles.css";
+import "./App.css";
 
 export default function App() {
   const particleInit = async (engine) => {
