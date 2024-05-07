@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfireworks=self.webpackChunkfireworks||[]).push([[1212],{1212:(e,a,t)=>{async function n(e){let a=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await e.addParticleUpdater("wobble",(async e=>{const{WobbleUpdater:a}=await Promise.all([t.e(4409),t.e(1827)]).then(t.bind(t,1827));return new a(e)}),a)}t.d(a,{loadWobbleUpdater:()=>n})}}]);
+//# sourceMappingURL=1212.09605a78.chunk.js.map
