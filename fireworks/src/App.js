@@ -7,8 +7,8 @@ export default function App() {
   const [fireworkCount, setFireworkCount] = useState(0);
   const [showFirework, setShowFirework] = useState(false);
 
-  const particleInit = (engine) => {
-    engine?.current?.init();
+  const particleInit = async (engine) => {
+    await loadFull(engine);
   };
 
   const particleConfig = {
