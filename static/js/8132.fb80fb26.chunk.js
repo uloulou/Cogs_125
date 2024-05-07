@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfireworks=self.webpackChunkfireworks||[]).push([[8132],{8132:(e,n,s)=>{async function i(e){let n=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];const{AbsorbersPlugin:i}=await s.e(888).then(s.bind(s,888));await e.addPlugin(new i,n)}s.d(n,{loadAbsorbersPlugin:()=>i})}}]);
+//# sourceMappingURL=8132.fb80fb26.chunk.js.map
