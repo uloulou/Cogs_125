@@ -9,8 +9,9 @@ export default function App() {
 
   const particleInit = async (engine) => {
     await loadFull(engine);
+    engine.start();
   };
-
+  
   const particleConfig = {
     fullScreen: {
       enable: true
