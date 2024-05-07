@@ -193,37 +193,44 @@ export default function App() {
       enable: true
     },
     detectRetina: true,
-    background: {
-      color: "#000"
-    },
     fpsLimit: 60,
     particles: showFirework
       ? {
           number: {
-            value: 0
+            value: 100,
+            density: {
+              enable: true,
+              area: 800
+            }
           },
-          life: {
-            count: 1
+          color: {
+            value: "#ffffff"
           },
           shape: {
             type: "circle"
           },
+          opacity: {
+            value: 0.5,
+            random: true
+          },
           size: {
-            value: { min: 2, max: 3 },
-            animation: {
-              enable: true,
-              speed: 50,
-              size_min: 0.1,
-              sync: false
-            }
+            value: 4,
+            random: true
           },
           move: {
             enable: true,
-            speed: 1,
-            direction: "none",
+            speed: 3,
+            direction: "bottom",
             random: true,
             straight: false,
-            out_mode: "out"
+            outMode: "out"
+          },
+          rotate: {
+            animation: {
+              enable: true,
+              speed: 10,
+              sync: false
+            }
           }
         }
       : null
