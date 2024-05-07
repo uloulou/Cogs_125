@@ -8,7 +8,7 @@ export default function App() {
   const [showFirework, setShowFirework] = useState(false);
 
   const particleInit = (engine) => {
-    engine?.init();
+    engine?.current?.init();
   };
 
   const particleConfig = {
