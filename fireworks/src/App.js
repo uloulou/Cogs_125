@@ -90,7 +90,7 @@ export default function App() {
           },
           particles: {
             color: {
-              value: ["#FF0000", "#FFD700", "#00FF00", "#00BFFF", "#FF1493"]
+              value: ["#E696FF", "#FB3261", "#12DDE8", "#FF5035", "#76268E"]
             },
             stroke: {
               width: 0
