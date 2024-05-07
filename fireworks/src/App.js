@@ -1,8 +1,11 @@
+import React, { useState } from "react";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import "./App.css";
 
 export default function App() {
+  const [fireworkCount, setFireworkCount] = useState(0);
+
   const particleInit = async (engine) => {
     await loadFull(engine);
   };
@@ -143,5 +146,22 @@ export default function App() {
       }
     }
   };
-  return <Particles options={particleConfig} init={particleInit} />;
+
+  const handleFireworkLaunch = () => {
+    setFireworkCount((prevCount) => prevCount + 1);
+  };
+
+  return (
+    <div className="App">
+      <Particles options={particleConfig} init={particleInit} />
+      <div className="button-container">
+        <button className="fire-button" onClick={handleFireworkLaunch}>
+          <span role="img" aria-label="fire">
+            🔥
+          </span>
+        </button>
+        <p className="firework-counter">Fireworks launched: {fireworkCount}</p>
+      </div>
+    </div>
+  );
 }
