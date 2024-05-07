@@ -11,10 +11,10 @@ export default function App() {
     await loadFull(engine);
   };*/
 
-  const particleInit = (engine) => {
+  /*const particleInit = (engine) => {
     engine.init();
     engine.start();
-  };
+  };*/
 
   const particleConfig = {
     fullScreen: {
