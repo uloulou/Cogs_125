@@ -163,7 +163,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <Particles id="tsparticles" options={particleConfig} init={particleInit} />
+      <Particles id="tsparticles" options={particleConfig} />
       <div className="button-container">
         <button className="fire-button" onClick={handleFireworkLaunch}>
           {"🔥"}
