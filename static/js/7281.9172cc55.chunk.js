@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkfireworks=self.webpackChunkfireworks||[]).push([[7281],{7281:(e,r,t)=>{async function a(e){var r;let a=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];const i=e,{EmittersCircleShapeGenerator:n}=await t.e(7360).then(t.bind(t,7360));null===(r=i.addEmitterShapeGenerator)||void 0===r||r.call(i,"circle",new n),await i.refresh(a)}t.d(r,{loadEmittersShapeCircle:()=>a})}}]);
-//# sourceMappingURL=7281.9172cc55.chunk.js.map
