@@ -46,3 +46,9 @@
     top: 0;
     z-index: -1;
 }
+
+.particle-wrapper {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+  }
